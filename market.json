@@ -5,7 +5,440 @@
     "version": "2026.11.21",
     "homepage": "https://zhalstar.github.io/zhalslar-plugin-market",
     "repository": "https://github.com/Zhalstar/zhalslar-plugin-market",
-    "description": "Zhalslar 维护的 AstrBot 插件源。",
+    "description": "饰乐维护的 AstrBot 插件源。",
     "updated_at": "2026-11-21T00:00:00+08:00"
+  },
+  "饰乐/astrbot_plugin_afdian": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_afdian",
+    "version": "v1.1.1",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_afdian",
+    "desc": "爱发电对接插件，接受用户打赏，实时推送订单情况",
+    "display_name": "爱发电插件"
+  },
+  "饰乐/astrbot_plugin_apis": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_apis",
+    "version": "v3.1.2",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_apis",
+    "desc": "API聚合插件, 海量免费API动态添加, 支持用面板管理",
+    "display_name": "API聚合",
+    "astrbot_version": ">=4.26.1"
+  },
+  "饰乐/astrbot_plugin_box": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_box",
+    "version": "v1.4.1",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_box",
+    "desc": "遵循OnebotV11协议，以卡片形式展示QQ用户主页资料",
+    "display_name": "QQ资料卡片",
+    "support_platforms": [
+      "aiocqhttp"
+    ]
+  },
+  "饰乐/astrbot_plugin_broadcast": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_broadcast",
+    "version": "v1.2.0",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_broadcast",
+    "desc": "[仅aiocqhttp] 一键群广播，所有适配器支持的格式都能发",
+    "display_name": "广播助手"
+  },
+  "饰乐/astrbot_plugin_browser": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_browser",
+    "version": "v2.0.0",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_browser",
+    "desc": "通过操控bot与浏览器交互（搜索、点击、滑动、滚动、缩放、输入、切换标签页、收藏等等）",
+    "display_name": "浏览器插件"
+  },
+  "饰乐/astrbot_plugin_cube": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_cube",
+    "version": "v1.0.2",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_cube",
+    "desc": "魔方插件，支持三阶魔方，可多人参与",
+    "display_name": "三阶魔方"
+  },
+  "饰乐/astrbot_plugin_deepwiki": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_deepwiki",
+    "version": "v1.0.3",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_deepwiki",
+    "desc": "使用deepwiki查询指定github仓库，可作为问答助手",
+    "display_name": "DeepWiki查询"
+  },
+  "饰乐/astrbot_plugin_emoji_like": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_emoji_like",
+    "version": "v2.0.0",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_emoji_like",
+    "desc": "调用LLM判断消息的情感, 智能地给消息贴上QQ表情",
+    "display_name": "智能贴表情",
+    "support_platforms": [
+      "aiocqhttp"
+    ]
+  },
+  "饰乐/astrbot_plugin_extract": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_extract",
+    "version": "v1.0.1",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_extract",
+    "desc": "对图片、视频、语音、文件等媒体的元数据进行解析",
+    "display_name": "元数据解析"
+  },
+  "饰乐/astrbot_plugin_gallery": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_gallery",
+    "version": "v2.1.0",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_gallery",
+    "desc": "帮助用户组建、管理、调用本地图库，可用于表情包收集管理、图床管理、为其他插件提供动态图库等等",
+    "display_name": "图库管理器"
+  },
+  "饰乐/astrbot_plugin_GPT_SoVITS": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_GPT_SoVITS",
+    "version": "v3.1.1",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_GPT_SoVITS",
+    "desc": "对接本地部署的GPT_SoVITS,为astrbot提供文本转语音(TTS)服务，支持自定义音色和情绪",
+    "display_name": "GPT_SoVITS"
+  },
+  "饰乐/astrbot_plugin_helps": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_helps",
+    "version": "v1.0.0",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_helps",
+    "desc": "基于 typst 实现 AstrBot 插件帮助菜单的渲染，把插件菜单、事件钩子、函数工具、过滤器列表渲染成友好界面",
+    "display_name": "插件菜单"
+  },
+  "饰乐/astrbot_plugin_heweather": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_heweather",
+    "version": "1.0.1",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_heweather",
+    "desc": "查询和风天气预报、空气质量和预警信息，使用 Typst 渲染天气卡片",
+    "display_name": "和风天气"
+  },
+  "饰乐/astrbot_plugin_history_day": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_history_day",
+    "version": "v1.0.8",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_history_day",
+    "desc": "查看历史上的某天发生的大事",
+    "display_name": "历史上的某天"
+  },
+  "饰乐/astrbot_plugin_human_service": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_human_service",
+    "version": "v1.7.3",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_human_service",
+    "desc": "更加优秀的人工客服插件，支持智能排队、时间管理、客服名称和黑名单",
+    "display_name": "人工客服"
+  },
+  "饰乐/astrbot_plugin_jiakao": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_jiakao",
+    "version": "v0.1.0",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_jiakao",
+    "desc": "在聊天会话中进行科目一、科目四答题",
+    "display_name": "驾考宝典",
+    "astrbot_version": ">=4.29.4"
+  },
+  "饰乐/astrbot_plugin_lottery": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_lottery",
+    "version": "v1.0.4",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_lottery",
+    "desc": "抽奖插件，可自定义抽奖活动的概率、奖品、奖品数量",
+    "display_name": "抽奖插件"
+  },
+  "饰乐/astrbot_plugin_mcping": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_mcping",
+    "version": "v1.0.3",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_mcping",
+    "desc": "获取 Minecraft JE/BE 服务器 Motd 图片信息",
+    "display_name": "MC服务器状态查询"
+  },
+  "饰乐/astrbot_plugin_memelite": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_memelite",
+    "version": "v3.0.5",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_memelite",
+    "desc": "表情包生成器，制作各种沙雕表情",
+    "display_name": "表情包生成器"
+  },
+  "饰乐/astrbot_plugin_minecraft": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_minecraft",
+    "version": "v0.0.2",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_minecraft",
+    "desc": "我的世界Astrbot简易插件版",
+    "display_name": "我的世界",
+    "astrbot_version": ">=4.26.1"
+  },
+  "饰乐/astrbot_plugin_minesweeper": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_minesweeper",
+    "version": "v1.3.1",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_minesweeper",
+    "desc": "经典的扫雷小游戏",
+    "display_name": "扫雷游戏",
+    "astrbot_version": ">=4.26.1"
+  },
+  "饰乐/astrbot_plugin_msg_search": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_msg_search",
+    "version": "v1.0.2",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_msg_search",
+    "desc": "[仅aiocqhttp]搜消息插件，比如搜索 谁at我",
+    "display_name": "搜索消息"
+  },
+  "饰乐/astrbot_plugin_multimsg": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_multimsg",
+    "version": "v1.0.5",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_multimsg",
+    "desc": "[仅aiocqhttp] 为bot发送多种类型消息提供便捷命令，包括markdown，猜拳，转骰子，发表情，音乐卡片，推荐卡片，转发，合并转发，@全体成员...",
+    "display_name": "多类型消息发送"
+  },
+  "饰乐/astrbot_plugin_music": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_music",
+    "version": "v3.5.1",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_music",
+    "desc": "高性能低耦合的点歌插件, 支持AI点歌、卡片播放、语音播放、热评、歌词、歌单、多音源、无需VIP",
+    "display_name": "点歌插件"
+  },
+  "饰乐/astrbot_plugin_music_cover": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_music_cover",
+    "version": "v1.0.0",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_music_cover",
+    "desc": "基于点歌插件音源和本机 RVC WebUI 生成 AI 翻唱",
+    "display_name": "音乐翻唱"
+  },
+  "饰乐/astrbot_plugin_music_listening": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_music_listening",
+    "version": "v1.0.0",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_music_listening",
+    "desc": "配合点歌插件提供多人同步播放、共同点歌、队列管理和房间聊天",
+    "display_name": "一起听"
+  },
+  "饰乐/astrbot_plugin_outputpro": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_outputpro",
+    "version": "v2.3.0",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_outputpro",
+    "desc": "Astrbot输出管道：图片外显 → 报错处理 → 消息拦截 → 解析艾特 → 文本清洗 → 文本替换 → 表情映射 → 错字模拟 → 文转语音 → 文转图片 → 智能引用 → 合并转发 → 自动撤回 → 分段回复",
+    "display_name": "输出增强",
+    "astrbot_version": ">=v4.13.0"
+  },
+  "饰乐/astrbot_plugin_parser": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_parser",
+    "version": "v1.6.1",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_parser",
+    "desc": "高性能低耦合的万能链接解析器。支持的类型：视频、图集、音频。 支持的平台：A站、B站、抖音、tiktok、微博、小红书、快手、油管、X...",
+    "display_name": "万能解析器"
+  },
+  "饰乐/astrbot_plugin_password": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_password",
+    "version": "v1.1.1",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_password",
+    "desc": "强制修改astrbot面板的用户名、密码（仅管理员可用）",
+    "display_name": "密码修改器"
+  },
+  "饰乐/astrbot_plugin_pokepro": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_pokepro",
+    "version": "v2.1.2",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_pokepro",
+    "desc": "【专业的戳一戳插件】支持触发（反戳：LLM：face：图库：语音：禁言：命令），戳@某人，跟戳",
+    "display_name": "专业戳一戳",
+    "support_platforms": [
+      "aiocqhttp"
+    ],
+    "astrbot_version": ">=4.13.0"
+  },
+  "饰乐/astrbot_plugin_portrayal": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_portrayal",
+    "version": "v1.1.6",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_portrayal",
+    "desc": "爬取群友的聊天记录，进而用llm分析群友画像",
+    "display_name": "人物画像"
+  },
+  "饰乐/astrbot_plugin_qqadmin": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_qqadmin",
+    "version": "v3.4.2",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_qqadmin",
+    "desc": "[仅aiocqhttp]群管插件，功能包括：禁言、全体禁言、踢人、拉黑、改群昵称、改头衔、设管理员、设精华、撤回消息、改群头像、改群名、发群公告、整理群友信息等等",
+    "display_name": "QQ群管",
+    "support_platforms": [
+      "aiocqhttp"
+    ],
+    "astrbot_version": ">=4.24.2"
+  },
+  "饰乐/astrbot_plugin_qqadmin_official": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_qqadmin_official",
+    "version": "v1.0.1",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_qqadmin_official",
+    "desc": "适用于QQ官方bot的群管插件，功能包括：禁言、进群审批",
+    "display_name": "QQ官方群管",
+    "support_platforms": [
+      "qq_official",
+      "qq_official_webhook"
+    ],
+    "astrbot_version": ">=4.27.0"
+  },
+  "饰乐/astrbot_plugin_qqprofile": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_qqprofile",
+    "version": "v1.1.6",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_qqprofile",
+    "desc": "[仅aiocqhttp]配置bot的头像、昵称、签名、状态等QQ资料, 同时可绑定于不同人格",
+    "display_name": "QQ资料管理",
+    "support_platforms": [
+      "aiocqhttp"
+    ]
+  },
+  "饰乐/astrbot_plugin_qqwebui": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_qqwebui",
+    "version": "v1.1.0",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_qqwebui",
+    "desc": "第三方 QQ 客户端,支持在 Astrbot 面板上体验 QQ 的大部分功能",
+    "display_name": "QQ面板",
+    "support_platforms": [
+      "aiocqhttp"
+    ],
+    "astrbot_version": ">=4.26.1"
+  },
+  "饰乐/astrbot_plugin_qun_album": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_qun_album",
+    "version": "v1.2.1",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_qun_album",
+    "desc": "群相册插件，记录群友怪话",
+    "display_name": "群相册插件",
+    "support_platforms": [
+      "aiocqhttp"
+    ]
+  },
+  "饰乐/astrbot_plugin_qzone": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_qzone",
+    "version": "v3.2.0",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_qzone",
+    "desc": "QQ空间对接插件, 支持查看/点赞/评论说说、自动发说说、AI写说说、表白墙投稿与审核等功能",
+    "display_name": "QQ空间"
+  },
+  "饰乐/astrbot_plugin_relationship": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_relationship",
+    "version": "v3.1.0",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_relationship",
+    "desc": "帮助你管理QQ好友和群聊: 删除好友、退群、查看好友列表、查看群列表、处理好友申请、处理群邀请、抽查聊天记录",
+    "display_name": "人际关系管理器",
+    "support_platforms": [
+      "aiocqhttp"
+    ]
+  },
+  "饰乐/astrbot_plugin_reread": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_reread",
+    "version": "v2.1.2",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_reread",
+    "desc": "非常轻量好用的复读姬，可单独设置复读阈值（文本、图片、表情）、响应概率、动作权重、屏蔽单人",
+    "display_name": "复读姬"
+  },
+  "饰乐/astrbot_plugin_restart": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_restart",
+    "version": "v1.2.1",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_restart",
+    "desc": "用命令重启、定时自动重启 AstrBot，以解决bot长时间运行可能出现的“抽风”或内存泄漏问题",
+    "display_name": "重启插件",
+    "astrbot_version": ">=4.24.4"
+  },
+  "饰乐/astrbot_plugin_roulette": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_roulette",
+    "version": "v1.1.0",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_roulette",
+    "desc": "俄罗斯转盘赌，中枪者禁言，支持战绩查询和排行榜",
+    "display_name": "俄罗斯转盘赌"
+  },
+  "饰乐/astrbot_plugin_router": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_router",
+    "version": "1.4.0",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_router",
+    "desc": "将不同用户路由到不同模型，闲聊者用反应快的模型，开发者用干活强的模型",
+    "display_name": "模型路由",
+    "short_desc": "将不同用户路由到不同模型",
+    "astrbot_version": ">=4.0.0"
+  },
+  "饰乐/astrbot_plugin_screenctrl": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_screenctrl",
+    "version": "v1.1.2",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_screenctrl",
+    "desc": "支持用命令截屏、连续截屏、定时截屏、戳一戳截屏",
+    "display_name": "截屏插件"
+  },
+  "饰乐/astrbot_plugin_search_video": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_search_video",
+    "version": "v1.4.1",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_search_video",
+    "desc": "搜索视频并下载，让你和群友直接在群内一起刷视频",
+    "display_name": "搜索视频"
+  },
+  "饰乐/astrbot_plugin_starhub": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_starhub",
+    "version": "v0.1.0",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_starhub",
+    "desc": "在聊天中搜索、安装、启用、停用、重载和卸载 AstrBot 插件。",
+    "display_name": "StarHub 插件中心"
+  },
+  "饰乐/astrbot_plugin_supervisor": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_supervisor",
+    "version": "v1.0.3",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_supervisor",
+    "desc": "赛博监工，检测到某人水群，就提醒他滚去干活",
+    "display_name": "赛博监工"
+  },
+  "饰乐/astrbot_plugin_wakepro": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_wakepro",
+    "version": "v2.3.1",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_wakepro",
+    "desc": "AstrBot唤醒流水线：阻塞判断 → 指令屏蔽 → 消息防抖 → 提及唤醒 → 唤醒延长 → 智能唤醒 → JEV唤醒 → 沉默检测",
+    "display_name": "唤醒增强",
+    "astrbot_version": ">=4.18.2"
+  },
+  "饰乐/astrbot_plugin_worldbook": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_worldbook",
+    "version": "v2.2.9",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_worldbook",
+    "desc": "面向 LLM 的「世界书」系统实现插件。可在特定触发条件下，将预设内容注入至 system_prompt，用于临时或持续影响 AI 的世界观、角色行为与回复逻辑",
+    "display_name": "世界书插件"
+  },
+  "饰乐/astrbot_plugin_zt": {
+    "author": "饰乐",
+    "name": "astrbot_plugin_zt",
+    "version": "v1.1.1",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_zt",
+    "desc": "简易版服务器状态插件",
+    "display_name": "简易状态"
   }
 }

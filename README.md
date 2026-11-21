@@ -1,6 +1,6 @@
 # 饰乐的插件市场
 
-这是 Zhalslar 维护的 AstrBot 自定义插件源。
+这是饰乐维护的 AstrBot 自定义插件源。
 
 ## 插件源地址
 
@@ -29,12 +29,12 @@ https://zhalstar.github.io/zhalslar-plugin-market/market.json
     "name": "饰乐的插件市场",
     "version": "2026.11.21"
   },
-  "Zhalslar/astrbot_plugin_example": {
-    "author": "Zhalslar",
+  "饰乐/astrbot_plugin_example": {
+    "author": "饰乐",
     "name": "astrbot_plugin_example",
     "display_name": "示例插件",
     "version": "1.0.0",
-    "repo": "https://github.com/Zhalslar/astrbot_plugin_example",
+    "repo": "https://github.com/Zhalstar/astrbot_plugin_example",
     "desc": "示例插件描述",
     "short_desc": "简短描述",
     "astrbot_version": ">=4.16,<5",
@@ -57,6 +57,16 @@ python scripts/update_md5.py
 
 该命令会校验市场数据并更新 `market-md5.json`。提交时应同时提交这两个
 JSON 文件；GitHub Actions 会检查它们是否匹配。
+
+也可以从现有 AstrBot 实例批量导入已安装插件的 `metadata.yaml`：
+
+```bash
+python scripts/import_plugins.py /path/to/AstrBot/data/plugins
+python scripts/update_md5.py
+```
+
+导入脚本需要 PyYAML，并会跳过缺少 `name`、`author` 或 `repo` 的插件，
+因为这些插件无法形成可安装的市场记录。
 
 ## 必填字段
 
