@@ -1,0 +1,11 @@
+{
+  "$meta": {
+    "schema_version": 1,
+    "name": "饰乐的插件市场",
+    "version": "2026.11.21",
+    "homepage": "https://zhalstar.github.io/zhalslar-plugin-market",
+    "repository": "https://github.com/Zhalstar/zhalslar-plugin-market",
+    "description": "Zhalslar 维护的 AstrBot 插件源。",
+    "updated_at": "2026-11-21T00:00:00+08:00"
+  }
+}
