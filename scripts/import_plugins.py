@@ -85,11 +85,17 @@ def main() -> int:
         plugin_id = f"{author}/{name}"
         if plugin_id.casefold() in {item.casefold() for item in records}:
             raise ValueError(f"Duplicate plugin ID: {plugin_id}")
-        records[plugin_id] = {
+        record = {
             field: plugin[field]
             for field in allowed_fields
             if field in plugin and plugin[field] is not None
         }
+        if not record.get("logo") and (metadata_path.parent / "logo.png").is_file():
+            repo_path = repo.removeprefix("https://github.com/").removesuffix(".git")
+            record["logo"] = (
+                f"https://raw.githubusercontent.com/{repo_path}/main/logo.png"
+            )
+        records[plugin_id] = record
 
     output = {"$meta": metadata}
     output.update(dict(sorted(records.items(), key=lambda item: item[0].casefold())))

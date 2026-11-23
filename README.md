@@ -66,7 +66,9 @@ python scripts/update_md5.py
 ```
 
 导入脚本需要 PyYAML，并会跳过缺少 `name`、`author` 或 `repo` 的插件，
-因为这些插件无法形成可安装的市场记录。
+因为这些插件无法形成可安装的市场记录。如果插件根目录存在 `logo.png`
+且 metadata 未显式提供 `logo`，导入脚本会根据 GitHub 仓库地址自动生成
+公开的 raw 图片地址。
 
 ## 必填字段
 
