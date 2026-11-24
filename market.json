@@ -1,7 +1,7 @@
 {
   "$meta": {
     "schema_version": 1,
-    "name": "饰乐的插件市场",
+    "name": "ZhalHub",
     "version": "2026.11.21",
     "homepage": "https://zhalstar.github.io/zhalslar-plugin-market",
     "repository": "https://github.com/Zhalstar/zhalslar-plugin-market",
@@ -169,14 +169,6 @@
     "desc": "抽奖插件，可自定义抽奖活动的概率、奖品、奖品数量",
     "display_name": "抽奖插件"
   },
-  "饰乐/astrbot_plugin_mcping": {
-    "author": "饰乐",
-    "name": "astrbot_plugin_mcping",
-    "version": "v1.0.3",
-    "repo": "https://github.com/Zhalstar/astrbot_plugin_mcping",
-    "desc": "获取 Minecraft JE/BE 服务器 Motd 图片信息",
-    "display_name": "MC服务器状态查询"
-  },
   "饰乐/astrbot_plugin_memelite": {
     "author": "饰乐",
     "name": "astrbot_plugin_memelite",
@@ -241,15 +233,6 @@
     "logo": "https://raw.githubusercontent.com/Zhalstar/astrbot_plugin_music_cover/main/logo.png",
     "desc": "基于点歌插件音源和本机 RVC WebUI 生成 AI 翻唱",
     "display_name": "音乐翻唱"
-  },
-  "饰乐/astrbot_plugin_music_listening": {
-    "author": "饰乐",
-    "name": "astrbot_plugin_music_listening",
-    "version": "v1.0.0",
-    "repo": "https://github.com/Zhalstar/astrbot_plugin_music_listening",
-    "logo": "https://raw.githubusercontent.com/Zhalstar/astrbot_plugin_music_listening/main/logo.png",
-    "desc": "配合点歌插件提供多人同步播放、共同点歌、队列管理和房间聊天",
-    "display_name": "一起听"
   },
   "饰乐/astrbot_plugin_outputpro": {
     "author": "饰乐",
@@ -442,14 +425,6 @@
     "logo": "https://raw.githubusercontent.com/Zhalstar/astrbot_plugin_search_video/main/logo.png",
     "desc": "搜索视频并下载，让你和群友直接在群内一起刷视频",
     "display_name": "搜索视频"
-  },
-  "饰乐/astrbot_plugin_starhub": {
-    "author": "饰乐",
-    "name": "astrbot_plugin_starhub",
-    "version": "v0.1.0",
-    "repo": "https://github.com/Zhalstar/astrbot_plugin_starhub",
-    "desc": "在聊天中搜索、安装、启用、停用、重载和卸载 AstrBot 插件。",
-    "display_name": "StarHub 插件中心"
   },
   "饰乐/astrbot_plugin_supervisor": {
     "author": "饰乐",

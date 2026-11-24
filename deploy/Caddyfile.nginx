@@ -1,0 +1,33 @@
+:80 {
+    encode zstd gzip
+
+    handle /api/* {
+        reverse_proxy backend:8000
+    }
+
+    handle /market.json {
+        reverse_proxy backend:8000
+    }
+
+    handle /market-md5.json {
+        reverse_proxy backend:8000
+    }
+
+    handle /plugin-assets/* {
+        reverse_proxy backend:8000
+    }
+
+    handle {
+        root * /srv
+        try_files {path} /index.html
+        file_server
+    }
+
+    header {
+        X-Content-Type-Options nosniff
+        Referrer-Policy strict-origin-when-cross-origin
+        Permissions-Policy "camera=(), microphone=(), geolocation=()"
+        -Server
+    }
+}
+

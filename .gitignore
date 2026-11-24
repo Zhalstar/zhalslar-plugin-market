@@ -1,2 +1,14 @@
+.env
+.venv/
+.nodeenv/
 __pycache__/
 *.py[cod]
+.pytest_cache/
+.ruff_cache/
+backend/data/
+frontend/node_modules/
+frontend/dist/
+frontend/test-results/
+frontend/*.tsbuildinfo
+frontend/auth-debug.png
+.DS_Store

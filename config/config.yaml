@@ -1,0 +1,69 @@
+app:
+  name: "ZhalHub"
+  public_url: "${PUBLIC_URL:-http://localhost}"
+  frontend_url: "${FRONTEND_URL:-http://localhost}"
+  environment: "${APP_ENV:-development}"
+
+server:
+  host: "0.0.0.0"
+  port: 8000
+  cors_origins:
+    - "${FRONTEND_URL:-http://localhost}"
+
+database:
+  url: "${DATABASE_URL:-sqlite:///./data/market.db}"
+
+auth:
+  secret_key: "${AUTH_SECRET_KEY:-change-me-in-production}"
+  access_token_minutes: 30
+  refresh_token_days: 30
+  secure_cookies: ${SECURE_COOKIES:-false}
+  require_email_verification: ${REQUIRE_EMAIL_VERIFICATION:-false}
+
+oauth:
+  encryption_key: "${OAUTH_ENCRYPTION_KEY:-}"
+  github:
+    enabled: ${GITHUB_ENABLED:-false}
+    client_id: "${GITHUB_CLIENT_ID:-}"
+    client_secret: "${GITHUB_CLIENT_SECRET:-}"
+    callback_url: "${GITHUB_CALLBACK_URL:-http://localhost/api/v1/oauth/github/callback}"
+  gitee:
+    enabled: ${GITEE_ENABLED:-false}
+    client_id: "${GITEE_CLIENT_ID:-}"
+    client_secret: "${GITEE_CLIENT_SECRET:-}"
+    callback_url: "${GITEE_CALLBACK_URL:-http://localhost/api/v1/oauth/gitee/callback}"
+
+email:
+  enabled: ${EMAIL_ENABLED:-false}
+  smtp_host: "${SMTP_HOST:-}"
+  smtp_port: 465
+  username: "${SMTP_USERNAME:-}"
+  password: "${SMTP_PASSWORD:-}"
+  from_address: "${SMTP_FROM_ADDRESS:-}"
+
+storage:
+  directory: "${STORAGE_DIRECTORY:-./data/assets}"
+  packages_directory: "${PACKAGES_DIRECTORY:-./data/packages}"
+  public_path: "/plugin-assets"
+
+market:
+  title: "ZhalHub"
+  description: "饰乐维护的 AstrBot 插件市场。"
+  allow_github: true
+  allow_gitee: true
+  max_logo_bytes: 2097152
+  max_readme_bytes: 1048576
+  max_package_bytes: 16777216
+  max_unpacked_bytes: 134217728
+  max_avatar_bytes: 524288
+  request_timeout_seconds: 15
+  seed_file: "${MARKET_SEED_FILE:-./market.json}"
+
+security:
+  allowed_repository_hosts:
+    - "github.com"
+    - "gitee.com"
+  allowed_asset_hosts:
+    - "raw.githubusercontent.com"
+    - "gitee.com"
+
